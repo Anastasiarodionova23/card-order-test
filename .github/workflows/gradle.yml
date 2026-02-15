@@ -23,4 +23,4 @@ jobs:
         run: java -jar ./artifacts/app-order.jar &
 
       - name: Test with Gradle
-        run: ./gradlew test
+        run: ./gradlew test --info
